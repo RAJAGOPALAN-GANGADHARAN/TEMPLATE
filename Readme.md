@@ -3,7 +3,8 @@
 ```sh
 npm init
 npm install express sequelize mysql2 body-parser cors --save
-
+npx create-react-app frontend
+npm install bootstrap axios react-router-dom
 ```
 
 [Tutorial](https://bezkoder.com/node-js-express-sequelize-mysql/)
@@ -136,3 +137,7 @@ exports.findAllPublished = (req, res) => {
 };
 ```
 
+> Frontend part
+
+1. Copy src/App.js
+2. Copy src/index.js

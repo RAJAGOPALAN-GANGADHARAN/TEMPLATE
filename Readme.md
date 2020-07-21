@@ -3,6 +3,7 @@
 ```sh
 npm init
 npm install express sequelize mysql2 body-parser cors --save
+npm install passport passport-local express-session bcrypt-nodejs express-handlebars dotenv --save
 npx create-react-app frontend
 npm install bootstrap axios react-router-dom
 ```
